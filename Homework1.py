@@ -1,0 +1,10 @@
+a,b=int(input("What is your first integer value? ")),float(input("What is your second float value? "))
+c=str(input("What is your third string value? "))
+d,e=bool(input("What is your boolean fourth value? ")),complex(input("What is your fifth complex number value? "))
+at,bt,ct,dt,et=type(a),type(b),type(c),type(d),type(e)
+print("Your first value: {} | Type of your first value: {}".format(a,at))
+print(f'Your second value: {b} | Type of your second value: {bt}')
+print("Your third value: " +  str(c) + " |Type of your third value:" + str(ct))
+print("Your fourth value:",d," | Type of your first value:",dt)
+print("Your fifth value:",e," | Type of your first value:",et)
+
